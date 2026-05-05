@@ -19,7 +19,7 @@ const focusAreas = [
 
 export default function Approach() {
   return (
-    <section id="approach" className="py-24 px-6">
+    <section id="approach" className="scroll-mt-20 py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-sm uppercase tracking-widest text-zinc-500 mb-4">Our Approach</p>
@@ -31,7 +31,7 @@ export default function Approach() {
           {focusAreas.map((area, index) => (
             <div key={index} className="p-8 bg-zinc-50 rounded-2xl border border-zinc-200/50 hover:border-zinc-300 transition-colors">
               <h3 className="text-xl font-medium text-zinc-900 mb-3">{area.title}</h3>
-              <p className="text-zinc-600" dangerouslySetInnerHTML={{ __html: area.description }} />
+              <p className="text-zinc-600">{area.description}</p>
             </div>
           ))}
         </div>

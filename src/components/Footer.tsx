@@ -7,16 +7,27 @@ export default function Footer() {
             <p className="text-zinc-100 font-medium mb-2">HighBeam Capital</p>
             <p className="text-sm">Investing in transformative companies.</p>
           </div>
-          <div className="grid grid-cols-2 gap-8 text-sm">
-            <div>
-              <p className="text-zinc-100 font-medium mb-2">Contact</p>
-              <p className="text-zinc-400">highbeamcapital@gmail.com</p>
-            </div>
-            <div>
-              <p className="text-zinc-100 font-medium mb-2">Location</p>
-              <p className="text-zinc-400">Los Angeles, CA</p>
-            </div>
-          </div>
+<div className="grid grid-cols-3 gap-8 text-sm">
+             <div>
+               <p className="text-zinc-100 font-medium mb-2">Contact</p>
+               <p className="text-zinc-400">highbeamcapital@gmail.com</p>
+             </div>
+             <div>
+               <p className="text-zinc-100 font-medium mb-2">Location</p>
+               <p className="text-zinc-400">Los Angeles, CA</p>
+             </div>
+             <div>
+               <p className="text-zinc-100 font-medium mb-2">Social</p>
+               <a
+                 href="https://twitter.com/highbeamcapital"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="text-zinc-400 hover:text-zinc-50 transition-colors"
+               >
+                 @highbeamcapital
+               </a>
+             </div>
+           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-zinc-800 text-sm">
           &copy; {new Date().getFullYear()} HighBeam Capital. All rights reserved.

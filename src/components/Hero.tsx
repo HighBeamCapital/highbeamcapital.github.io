@@ -17,7 +17,7 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-8 py-4 bg-zinc-900 text-zinc-50 font-medium rounded-full hover:bg-zinc-800 transition-colors"
           >
             Get in Touch
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
